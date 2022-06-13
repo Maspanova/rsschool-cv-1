@@ -1,0 +1,29 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1024px;
+    box-shadow: 5px 5px 25px 10px #757575;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two-columns {
+    display: flex;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    width: 724px;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}

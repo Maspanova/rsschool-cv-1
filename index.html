@@ -8,81 +8,91 @@
   <title>Document</title>
 </head>
 <body>
-  <div >
+  <div class="main-container">
     <header>
-      <h1>Alena Vasilets</h1>
-      <h2>Junior Front-End Developer</h2>
-      <img src="cv-photo.jpg" alt="My Photo">
+      <div class="container">
+        <div>
+          <h1>Alena Vasilets</h1>
+          <h2>Junior Front-End Developer</h2>
+        </div>
+        <img src="cv-photo.jpg" alt="My Photo" height="300" width="300">
+      </div>
     </header>
     <main>
-      <section>
-        <h2>Contact</h2>
-        <ul>
-          <li>Discord</li>
-          <li>E-mail</li>
-        </ul>
-      </section>
-      <section>
-        <h2>About Me</h2>
-        <p>I worked in the beauty industry for several years, but I realized that my job did not suit me. I decided to radically change my profession. I love to learn new things, so I began to study Front-End Development. It is a challenge for me, but I believe that I can handle it.</p>
-      </section>
-      <section>
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Git</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Code Example</h2>
-        <pre>
-          <span>function multiply(a, b) {</span>
-          <span>  return a * b;</span>
-          <span>}</span>
-        </pre>
-      </section>
-      <section>
-        <h2>My project</h2>
-        <a href="https://leniliya.github.io/rsschool-cv/">CV</a>
-      </section>
-      <section>
-        <h2>Education</h2>
-        <ul>
-          <li>Lobachevsky State University of Nizhny Novgorod
+      <div class="two-columns">
+        <div class="left-column">
+          <section class="about-me">
+            <h2>About Me</h2>
+            <p>I worked in the beauty industry for several years, but I realized that my job did not suit me. I decided to radically change my profession. I love to learn new things, so I began to study Front-End Development. It is a challenge for me, but I believe that I can handle it.</p>
+          </section>
+          <section class="code-example">
+            <h2>Code Example</h2>
+            <pre>
+              <code>function multiply(a, b) {
+                return a * b;
+              }</code>
+           </pre>
+          </section>
+          <section class="my-project">
+            <h2>My project</h2>
+            <a href="https://leniliya.github.io/rsschool-cv/">CV</a>
+          </section>
+          <section class="education">
+            <h2>Education</h2>
             <ul>
-              <li>The Institute of Economics and Entrepreneurship, Bachelor of Management</li>
+              <li>Lobachevsky State University of Nizhny Novgorod
+                <ul>
+                  <li>The Institute of Economics and Entrepreneurship, Bachelor of Management</li>
+                </ul>
+              </li>
+              <li>The Rolling Scopes School
+                <ul>
+                  <li>JS / Front-End</li>
+                </ul>
+              </li>
             </ul>
-          </li>
-          <li>The Rolling Scopes School
+          </section>
+        </div>
+        <div class="right-column">
+          <section class="contact">
+            <h2>Contact</h2>
             <ul>
-              <li>JS / Front-End</li>
+              <li>Discord</li>
+              <li>E-mail</li>
             </ul>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Languages</h2>
-        <ul>
-          <li>Russian
+          </section>
+          <section class="skills">
+            <h2>Skills</h2>
             <ul>
-              <li>Native</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Git</li>
             </ul>
-          </li>
-          <li>English
+          </section>
+          <section class="languages">
+            <h2>Languages</h2>
             <ul>
-              <li>Pre-Intermediate</li>
+              <li>Russian
+                <ul>
+                  <li>Native</li>
+                </ul>
+              </li>
+              <li>English
+                <ul>
+                  <li>Pre-Intermediate</li>
+                </ul>
+              </li>
             </ul>
-          </li>
-        </ul>
-      </section>
+          </section>
+        </div>
+      </div>
     </main>
-    <footer>
+    <footer class="container">
       <p>2022</p>
       <a href="https://github.com/Leniliya">My GitHub Page</a>
       <a href="https://rs.school/js/">
-        <img src="rs_school_js.svg" alt="RS School logo">
+        <img src="rs_school_js.svg" alt="RS School logo" height="30">
       </a>
     </footer>
   </div>
