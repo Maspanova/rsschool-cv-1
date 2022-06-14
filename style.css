@@ -1,8 +1,25 @@
+@font-face {
+    font-family: 'Inter';
+    src: url("assets/fonts/Inter-Thin.ttf");
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: 'Inter';
+    src: url("assets/fonts/Inter-Regular.ttf");
+    font-weight: 300;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
 .main-container {
     display: flex;
     flex-direction: column;
     margin: auto;
     max-width: 1024px;
+    font-family: 'Inter';
+    font-size: 18px;    
     box-shadow: 5px 5px 25px 10px #757575;
 }
 
