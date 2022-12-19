@@ -34,6 +34,7 @@
 }
 
 .main-title {
+    padding: 26px;
     margin: auto;
     text-align: center;
 }
@@ -49,7 +50,7 @@
     content: "";
     position: absolute;
     top: 82px;
-    left: 70px;
+    left: 219px;
     width: 251px;
     border: 1px solid #2D5039;
 }
@@ -61,11 +62,24 @@
 .profession {
     font-size: 30px;
     font-weight: 500;
+  }
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 685px;
+  margin-top: 45px;
+  margin-bottom: 0;
+}
+  
+.nav-item {
+  list-style-type: none;
 }
 
 .photo {
-    width: 284px;
-    height: 284px;
+    width: 285px;
+    height: 285px;
     background-color: #bdc2bd48;
 }
 
@@ -98,6 +112,7 @@
     padding: 26px;
     background-color: #bdc2bd48;
 }
+
 
 a:link { color: #000000; text-decoration: none}
 a:visited { color: #2D5039; text-decoration: none}
